@@ -102,7 +102,7 @@ int chooseNumbers(int *intA,int *intB, float *floatA, float *floatB, int *isFloa
             }
             while (getchar() != '\n') {}
             *isFloat=0; //zmienna ktora przyda sie pozniej przy wyborze operacji
-            return 1; //zakonczenie while ze 117 linijki
+            return 1; //zakonczenie while ze 123 linijki
         case 2:
             printf("Podaj dwie liczby zmiennoprzecinkowe oddzielone spacja\n");
             if (scanf("%f %f", floatA, floatB) != 2) {
@@ -111,7 +111,7 @@ int chooseNumbers(int *intA,int *intB, float *floatA, float *floatB, int *isFloa
             }
             while (getchar() != '\n') {}
             *isFloat=1;
-            return 1; //zakonczenie while ze 117 linijki
+            return 1; //zakonczenie while ze 123 linijki
         default:
         return 3;
     }
