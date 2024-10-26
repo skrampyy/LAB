@@ -1,8 +1,8 @@
 /*
-Zadanie3 - 20 pkt.
-Napisz program, który obliczy ilość wszystkich liczb od 1 do n podzielnych bez reszty przez k
-(n oraz k – podaje użytkownik n>k). Zabezpiecz program w dowolny sposób przed podaniem
-niewłaściwych danych.
+    Zadanie3 - 20 pkt.
+    Napisz program, który obliczy ilość wszystkich liczb od 1 do n podzielnych bez reszty przez k
+    (n oraz k – podaje użytkownik n>k). Zabezpiecz program w dowolny sposób przed podaniem
+    niewłaściwych danych.
  */
 
 #include <stdio.h>
