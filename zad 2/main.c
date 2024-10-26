@@ -13,7 +13,7 @@ int chooseOperation(int intA, int intB, float floatA, float floatB, int isFloat,
     printf("2: Odejmowanie\n");
     printf("3: Mnozenie\n"); //ponizej skomplikowanie kodu dla wlasnej satysfakcji
     printf("%s\n", ((intB != 0 && !isFloat) || (floatB != 0 && isFloat)) ? "4: Dzielenie":"4: Niedostepne - nie mozna dzielic przez zero");
-    if (!isFloat) {printf("5: %s\n",(intB!=0 ? "Dzielenie" : "Niedostepne - nie mozna dzielic przez 0"));} else {printf("5: Niedostepne - nie istnieje modulo dla liczb zmiennoprzecinkowych\n");}
+    if (!isFloat) {printf("5: %s\n",(intB!=0 ? "Modulo" : "Niedostepne - nie mozna dzielic przez 0"));} else {printf("5: Niedostepne - nie istnieje modulo dla liczb zmiennoprzecinkowych\n");}
 
     int choice;
     if (scanf("%d", &choice) != 1) { //sprawdzanie inputu uzytkownika i czyszczenie buffora
