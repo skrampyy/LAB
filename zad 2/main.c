@@ -22,7 +22,7 @@ int chooseOperation(int intA, int intB, float floatA, float floatB, int isFloat)
         return 1;
     }
     clear();
-    if (isFloat==1) {
+    if (isFloat) {
         switch(choice) {
             case 1:
                 printf("Suma dodawania tych liczb to: %.2f\n",floatA+floatB);
@@ -96,7 +96,6 @@ int chooseNumbers(int *intA,int *intB, float *floatA, float *floatB, int *isFloa
     switch (choice) {
         case 1:
             printf("Podaj dwie liczby calkowite oddzielone spacja\n");
-            printf("%d\n",scanf("%d %d", intA, intB));
             if (scanf("%d %d", intA, intB) != 2) {
                 printf("Niepoprawne liczby\n");
                 while (getchar() != '\n') {}
