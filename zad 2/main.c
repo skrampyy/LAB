@@ -1,3 +1,9 @@
+/*
+    Zadanie2 - 10 pkt. 
+    Napisz program wykonujący działania matematyczne takie jak:  dodawanie, odejmowanie, mnożenie, dzielenie, modulo na dwóch zmiennych różnych typów. 
+    Zmienne poszczególnych typów zadeklaruj w kodzie i pobierz wartości od użytkownika. Wyniki działań, opatrzone stosownym komunikatem, wypisz na ekranie. 
+    Zaproponuj menu użytkownika z wyborem działań i typu zmiennych. Np. pierwsze menu - wybór typu danych, drugie menu - wybór działania. 
+*/
 #include <stdio.h>
 
 void clear() { //funkcja pseudo-czyszczaca podgladowa konsole
