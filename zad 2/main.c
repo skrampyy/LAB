@@ -92,7 +92,7 @@ int chooseNumbers(int *intA,int *intB, float *floatA, float *floatB, int *isFloa
         while (getchar() != '\n') {} //czyszczenie buffora, np gdy uzytkownik poda "1 35g24tb25b25" to bufor zapamieta "35g24tb25b25" na nastepnego scanf
         return 3;//zwracanie wyniku funkcji, ktory napisze, ze nieprawidlowo wybralismy
     }
-
+    while (getchar() != '\n') {}
     switch (choice) {
         case 1:
             printf("Podaj dwie liczby calkowite oddzielone spacja\n");
